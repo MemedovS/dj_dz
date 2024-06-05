@@ -1,0 +1,13 @@
+Watching for file changes with StatReloader
+Главная страница была посещена.
+"GET / HTTP/1.1" 200 951
+"GET /static/my_dz_1/css/style.css HTTP/1.1" 200 609
+"GET /static/my_dz_1/image/583.jpg HTTP/1.1" 200 2057688
+"О себе" страница была посещена.
+"GET /about/ HTTP/1.1" 200 1289
+Главная страница была посещена.
+"GET / HTTP/1.1" 200 951
+"О себе" страница была посещена.
+"GET /about/ HTTP/1.1" 200 1289
+Главная страница была посещена.
+"GET / HTTP/1.1" 200 951
