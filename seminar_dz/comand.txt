@@ -1,0 +1,4 @@
+python manage.py create_client "shamil mammedov" "sham@mail.ru" "+5123589955" "42 baku St"
+python manage.py create_order 6 2 2 1 # 1 это инд клиетна осталное ето инд продуктов
+python manage.py create_product "aser" "lapTop" 1300.00 5
+python manage.py delit_client 5
