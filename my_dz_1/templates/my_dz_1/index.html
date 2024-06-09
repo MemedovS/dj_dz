@@ -1,0 +1,8 @@
+{% extends 'my_dz_1/base.html' %}
+{% load static %}
+{% block content %}
+<h1>{{ title }}</h1>
+<img src="{% static 'my_dz_1/image/583.jpg' %}" alt="Моя фотография" width="150" height="150">
+<p> Содержимое главной страницы
+{% endblock %}
+

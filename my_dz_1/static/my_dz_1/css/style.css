@@ -1,0 +1,19 @@
+.header {
+    background-color: #4CAF50; /* Зеленый цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 1rem 0;
+}
+/* Стиль для обычных ссылок */
+a {
+    color: blue; /* Цвет текста ссылки */
+    text-decoration: none; /* Удаление подчеркивания под ссылкой */
+}
+
+/* Стиль для активных ссылок */
+a:hover {
+    color: red; /* Цвет текста ссылки при наведении */
+}
+body {
+    background-color: #E0FFFF; /* Цвет фона */
+}
+
