@@ -1550,3 +1550,9 @@ Watching for file changes with StatReloader
 "GET /client/1/orders/ HTTP/1.1" 200 1560
 C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
 Watching for file changes with StatReloader
+"GET /client/1/orders/ HTTP/1.1" 200 1560
+"GET /client/1/orders/ HTTP/1.1" 200 1479
+"GET / HTTP/1.1" 200 1166
+"GET /client/1/ HTTP/1.1" 200 1971
+"GET /client/1/orders/ HTTP/1.1" 200 1479
+"GET /client/2/ HTTP/1.1" 200 1405

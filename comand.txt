@@ -2,3 +2,9 @@ python manage.py create_client "shamil mammedov" "sham@mail.ru" "+5123589955" "4
 python manage.py create_order 6 2 2 1 # 1 это инд клиетна осталное ето инд продуктов
 python manage.py create_product "aser" "lapTop" 1300.00 5
 python manage.py delit_client 5
+python manage.py update_client 1 --name "sergey Aksentyev" --email "mail@example.com" --phone_number "1234567890" --address "S.P"
+python manage.py list_orders
+python manage.py list_clients
+python manage.py update_order 1 --add_products 2 3 --remove_products 1
+python manage.py all_product
+

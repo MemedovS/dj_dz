@@ -1,45 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-{% load static %}
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Client Detail</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'my_dz_2/css/style.css' %}">
-</head>
-<body>
-    <h1>Client Detail</h1>
-    <p><strong>ID:</strong> {{ client.id }}</p>
-    <p><strong>Name:</strong> {{ client.name }}</p>
-    <p><strong>Email:</strong> {{ client.email }}</p>
-    <p><strong>Phone Number:</strong> {{ client.phone_number }}</p>
-    <p><strong>Address:</strong> {{ client.address }}</p>
-    <p><strong>Registration Date:</strong> {{ client.registration_date }}</p>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--{% load static %}-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Client Detail</title>-->
+<!--    <link rel="stylesheet" type="text/css" href="{% static 'my_dz_2/css/style.css' %}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Client Detail</h1>-->
+<!--    <p><strong>ID:</strong> {{ client.id }}</p>-->
+<!--    <p><strong>Name:</strong> {{ client.name }}</p>-->
+<!--    <p><strong>Email:</strong> {{ client.email }}</p>-->
+<!--    <p><strong>Phone Number:</strong> {{ client.phone_number }}</p>-->
+<!--    <p><strong>Address:</strong> {{ client.address }}</p>-->
+<!--    <p><strong>Registration Date:</strong> {{ client.registration_date }}</p>-->
 
-    <h2>Orders</h2>
-    {% if orders %}
-        <ul>
-        {% for order in orders %}
-            <li>
-                <p><strong>Order ID:</strong> {{ order.id }}</p>
-                <p><strong>Date:</strong> {{ order.order_date }}</p>
-                <p><strong>Total Amount:</strong> {{ order.total_amount }}</p>
-                <p><strong>Products:</strong></p>
-                <ul>
-                {% for product in order.products.all %}
-                    <li>{{ product.name }} ({{ product.price }})</li>
-                {% endfor %}
-                </ul>
-            </li>
-        {% endfor %}
-        </ul>
-    {% else %}
-        <p>No orders found for this client.</p>
-    {% endif %}
+<!--    <h2>Orders</h2>-->
+<!--    {% if orders %}-->
+<!--        <ul>-->
+<!--        {% for order in orders %}-->
+<!--            <li>-->
+<!--                <p><strong>Order ID:</strong> {{ order.id }}</p>-->
+<!--                <p><strong>Date:</strong> {{ order.order_date }}</p>-->
+<!--                <p><strong>Total Amount:</strong> {{ order.total_amount }}</p>-->
+<!--                <p><strong>Products:</strong></p>-->
+<!--                <ul>-->
+<!--                {% for product in order.products.all %}-->
+<!--                    <li>{{ product.name }} ({{ product.price }})</li>-->
+<!--                {% endfor %}-->
+<!--                </ul>-->
+<!--            </li>-->
+<!--        {% endfor %}-->
+<!--        </ul>-->
+<!--    {% else %}-->
+<!--        <p>No orders found for this client.</p>-->
+<!--    {% endif %}-->
 
-    <footer>
-        <p>&copy; 2024 Shamil</p>
-    </footer>
-</body>
-</html>
+<!--    <footer>-->
+<!--        <p>&copy; 2024 Shamil</p>-->
+<!--    </footer>-->
+<!--</body>-->
+<!--</html>-->
 

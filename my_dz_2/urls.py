@@ -8,7 +8,9 @@ urlpatterns = [
     # path('random_number', views.random_number, name='random_number'),
     path('clients/', views.client_list, name='client_list'),
     path('client/<int:client_id>/', views.client_detail, name='client_detail'),
-    #path('product/<int:product_id>/', views.client_detail, name='product_detail')
+    path('client/<int:client_id>/orders/', views.client_orders, name='client_orders'),
+
+    # path('product/<int:product_id>/', views.client_detail, name='product_detail')
     # Аналогично для продуктов и заказов
 
 ]

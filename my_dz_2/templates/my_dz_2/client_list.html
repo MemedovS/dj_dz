@@ -1,24 +1,24 @@
 
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Client List</title>
-    <link rel="stylesheet" type="text/css" href="{% static 'my_dz_2/css/style.css' %}">
-</head>
-<body>
-    <h1>Client List</h1>
-    <ul>
-        {% for client in clients %}
-            <li>
-                <a href="{% url 'client_detail' client.id %}">{{ client.name }} </a>
-            </li>
-        {% endfor %}
-    </ul>
-<footer>
-    <p>&copy; 2024 Shamil</p>
-</footer>
-</body>
-</html>
+<!--<!DOCTYPE html>-->
+<!--{% load static %}-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Client List</title>-->
+<!--    <link rel="stylesheet" type="text/css" href="{% static 'my_dz_2/css/style.css' %}">-->
+<!--</head>-->
+<!--<body>-->
+<!--    <h1>Client List</h1>-->
+<!--    <ul>-->
+<!--        {% for client in clients %}-->
+<!--            <li>-->
+<!--                <a href="{% url 'client_detail' client.id %}">{{ client.name }} </a>-->
+<!--            </li>-->
+<!--        {% endfor %}-->
+<!--    </ul>-->
+<!--<footer>-->
+<!--    <p>&copy; 2024 Shamil</p>-->
+<!--</footer>-->
+<!--</body>-->
+<!--</html>-->
