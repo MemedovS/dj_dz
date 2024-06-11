@@ -1556,3 +1556,9 @@ Watching for file changes with StatReloader
 "GET /client/1/ HTTP/1.1" 200 1971
 "GET /client/1/orders/ HTTP/1.1" 200 1479
 "GET /client/2/ HTTP/1.1" 200 1405
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1166
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2684
+"GET /client/3/ HTTP/1.1" 200 1405
+"GET /client/3/orders/ HTTP/1.1" 200 1226
