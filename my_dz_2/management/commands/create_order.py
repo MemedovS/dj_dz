@@ -14,6 +14,7 @@ class Command(BaseCommand):
         client_id = kwargs['client_id']
         product_ids = kwargs['product_ids']
 
+
         try:
             client = Client.objects.get(pk=client_id)
         except Client.DoesNotExist:

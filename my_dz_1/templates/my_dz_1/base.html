@@ -21,10 +21,12 @@
         <a href="{% url 'index' %}">Главная</a> |
         <a href="{% url 'about' %}">О себе</a>
     </nav>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 </header>
-<main>
-    {% block content %}{% endblock %}
-</main>
 
 
 <footer>
