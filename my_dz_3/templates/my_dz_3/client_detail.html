@@ -3,7 +3,9 @@
 
 {% block title %}Client Detail{% endblock %}
 
-{% block header %}<h1 class="cus-header">Client Detail</h1>{% endblock %}
+{% block header %}<h1 class="cus-header">Client Detail</h1>
+<li> <a href="{% url 'client_list' %}" class="btn btn-primary">На главную </a></li>
+    {% endblock %}
 
 {% block content %}
 <div class="client-info">
