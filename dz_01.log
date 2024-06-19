@@ -1,111 +1,186 @@
 Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 951
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 200 609
-"GET /static/my_dz_1/image/583.jpg HTTP/1.1" 200 2057688
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1289
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 951
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1289
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 951
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 951
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 304 0
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 951
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1289
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 951
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1211
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1211
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1211
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1211
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_1\views.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 903
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 903
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 903
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_1\views.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 304 0
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1213
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1213
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Главная страница была посещена.
-Internal Server Error: /
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_1\views.py", line 13, in index
-    return render(request, 'my_dz_1/index.html', {'title': 'Главная страница'})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: my_dz_1/index.html
-"GET / HTTP/1.1" 500 78889
+"GET / HTTP/1.1" 200 939
+"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1555
 Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2442
+"GET /favicon.ico HTTP/1.1" 404 3166
+"GET /add_product/ HTTP/1.1" 200 1649
+"GET / HTTP/1.1" 200 939
+"GET /products/ HTTP/1.1" 200 2028
+"GET /media/product_photos/hand-using-computer-mouse_948265-138605.jpg HTTP/1.1" 304 0
+"GET /media/product_photos/acer.jpg HTTP/1.1" 304 0
+"GET /media/product_photos/best-laptops.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 939
 Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 10629
+"GET / HTTP/1.1" 200 939
+"GET /add_product/ HTTP/1.1" 200 1649
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5533
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2462
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2513
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\urls.py changed, reloading.
+"GET /admin/ HTTP/1.1" 200 7034
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 9850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/my_dz_3/order/ HTTP/1.1" 200 9309
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 10057
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2261
-"GET /client/2 HTTP/1.1" 301 0
-Internal Server Error: /client/2/
+Watching for file changes with StatReloader
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 10057
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 9850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 8350
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /admin/auth/user/ HTTP/1.1" 200 11839
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/group/ HTTP/1.1" 200 8350
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 11839
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 11839
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 11839
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 11839
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 8350
+"GET / HTTP/1.1" 200 939
+"GET /add_product/ HTTP/1.1" 200 1649
+"GET /admin/ HTTP/1.1" 200 7034
+"GET /admin/ HTTP/1.1" 200 7034
+"GET /admin/ HTTP/1.1" 200 7034
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 9850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/ HTTP/1.1" 200 7034
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 9850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 10057
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 9850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/order/ HTTP/1.1" 200 9309
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 9850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 9850
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/order/ HTTP/1.1" 200 9309
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13586
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13825
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13825
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/group/add/ HTTP/1.1" 302 0
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13833
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 10210
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/3/change/ HTTP/1.1" 200 13882
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 10210
+"GET /admin/auth/group/1/change/ HTTP/1.1" 200 13877
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 10210
+"GET /admin/auth/group/add/ HTTP/1.1" 200 13586
+"GET /admin/auth/user/ HTTP/1.1" 200 12301
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 12301
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/add/ HTTP/1.1" 200 11242
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/user/add/ HTTP/1.1" 200 11442
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/user/add/ HTTP/1.1" 200 11442
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/user/add/ HTTP/1.1" 200 11437
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/user/add/ HTTP/1.1" 302 0
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 23530
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12973
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/ HTTP/1.1" 200 8824
+"POST /admin/logout/ HTTP/1.1" 200 3553
+"GET /admin/logout/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4326
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 4511
+"POST /admin/logout/ HTTP/1.1" 200 3553
+"GET /admin/logout/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 8824
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 23394
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 12973
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/logout/ HTTP/1.1" 200 3553
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5694
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 7490
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 7419
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 7490
+"GET /admin/ HTTP/1.1" 200 5694
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 7419
+"GET /admin/ HTTP/1.1" 200 5694
+"GET /admin/my_dz_3/order/add/ HTTP/1.1" 200 9927
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/my_dz_3/order/add/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 6266
+Forbidden (Permission denied): /admin/my_dz_3/order/2/change/
 Traceback (most recent call last):
   File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
@@ -113,28 +188,42 @@ Traceback (most recent call last):
   File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 7, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_2.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/2/ HTTP/1.1" 500 71682
-Not Found: /client/<int:client_id 2
-"GET /client/%3Cint:client_id%202 HTTP/1.1" 404 2358
-Not Found: /client/client_id 2
-"GET /client/client_id%202 HTTP/1.1" 404 2335
-Not Found: /client/client_id
-"GET /client/client_id HTTP/1.1" 404 2327
-Not Found: /client/client_id
-"GET /client/client_id?2 HTTP/1.1" 404 2329
-Not Found: /client/
-"GET /client/ HTTP/1.1" 404 2300
-"GET /client/1 HTTP/1.1" 301 0
-Internal Server Error: /client/1/
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1831, in _changeform_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+"GET /admin/my_dz_3/order/2/change/ HTTP/1.1" 403 135
+"GET /admin/ HTTP/1.1" 200 6092
+Forbidden (Permission denied): /admin/my_dz_3/order/2/change/
 Traceback (most recent call last):
   File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
     response = get_response(request)
@@ -142,2480 +231,158 @@ Traceback (most recent call last):
   File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
     response = wrapped_callback(request, *callback_args, **callback_kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 9, in client_detail
-    return render(request, 'client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: client_detail.html
-"GET /client/1/ HTTP/1.1" 500 78733
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 9, in client_detail
-    return render(request, 'client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: client_detail.html
-"GET /client/1/ HTTP/1.1" 500 78733
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 9, in client_detail
-    return render(request, 'client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: client_detail.html
-"GET /client/1/ HTTP/1.1" 500 78870
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 9, in client_detail
-    return render(request, 'client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: client_detail.html
-"GET /client/1/ HTTP/1.1" 500 78870
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 9, in client_detail
-    return render(request, 'client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: client_detail.html
-"GET /client/1/ HTTP/1.1" 500 78870
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py changed, reloading.
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1948, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1804, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1831, in _changeform_view
+    raise PermissionDenied
+django.core.exceptions.PermissionDenied
+"GET /admin/my_dz_3/order/2/change/ HTTP/1.1" 403 135
+"GET /admin/ HTTP/1.1" 200 6092
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 540
-Internal Server Error: /client/2/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 7, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_2.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/2/ HTTP/1.1" 500 71690
-"GET /client/3/ HTTP/1.1" 200 533
-"GET /client/3/ HTTP/1.1" 200 615
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 404 1822
-"GET /client/3/ HTTP/1.1" 200 615
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 404 1822
-"GET /client/3/ HTTP/1.1" 200 615
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 404 1822
-"GET /client/3/ HTTP/1.1" 200 615
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 404 1822
-"GET /client/3/ HTTP/1.1" 200 615
-"GET /static/my_dz_2/css/style.css HTTP/1.1" 200 609
-"GET /client/3/ HTTP/1.1" 200 615
-"GET /client/3/ HTTP/1.1" 200 664
-"GET /client/3/ HTTP/1.1" 200 1610
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2261
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py", line 7, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_2.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 71708
+"GET / HTTP/1.1" 200 939
+"GET /add_product/ HTTP/1.1" 200 1649
+"GET /add_product/ HTTP/1.1" 200 1649
+"GET / HTTP/1.1" 200 939
+"GET /client/1/ HTTP/1.1" 200 1224
+"GET /add_product/ HTTP/1.1" 200 1649
+"GET /admin/ HTTP/1.1" 200 6092
+"GET /admin/ HTTP/1.1" 200 6092
+"POST /admin/logout/ HTTP/1.1" 200 3553
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 9173
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 12514
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 12680
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/?added_date__gte=2024-01-01+00%3A00%3A00%2B00%3A00&added_date__lt=2025-01-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 14404
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\form.py changed, reloading.
 Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 1213
-Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 1616
-"GET /client/2/ HTTP/1.1" 200 762
-"GET /client/3/ HTTP/1.1" 200 761
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2261
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2312
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /static/my_dz_2/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 1616
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2261
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /static/my_dz_2/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 1616
 C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\models.py changed, reloading.
 Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-"GET /client/4/ HTTP/1.1" 200 760
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /clients HTTP/1.1" 301 0
-"GET /clients/ HTTP/1.1" 200 737
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 737
-"GET /clients/ HTTP/1.1" 200 737
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 690
-"GET /clients/ HTTP/1.1" 200 690
-"GET /client/4/ HTTP/1.1" 200 760
-"GET /clients/ HTTP/1.1" 200 690
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_2\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 737
-"GET /clients/ HTTP/1.1" 200 737
-"GET /clients/ HTTP/1.1" 200 796
-"GET /client/2/ HTTP/1.1" 200 762
-"GET /client/4/ HTTP/1.1" 200 760
-"GET /client/4/ HTTP/1.1" 200 760
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /client/4/ HTTP/1.1" 200 760
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /client/2/ HTTP/1.1" 200 762
-"GET /client/1/ HTTP/1.1" 200 1616
-"GET /client/2/ HTTP/1.1" 200 762
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /clients/ HTTP/1.1" 200 796
-"GET /client/2/ HTTP/1.1" 200 762
-"GET /client/1/ HTTP/1.1" 200 1616
-"GET /client/4/ HTTP/1.1" 200 760
-Not Found: /clients/3
-"GET /clients/3 HTTP/1.1" 404 2481
-"GET /client/3 HTTP/1.1" 301 0
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /client/1/ HTTP/1.1" 200 1616
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-"GET /client/3/ HTTP/1.1" 200 761
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-"GET /client/3/ HTTP/1.1" 200 761
-Not Found: /clints
-"GET /clints HTTP/1.1" 404 2472
-Not Found: /clint/1
-"GET /clint/1 HTTP/1.1" 404 2475
-"GET /client/1/ HTTP/1.1" 200 1616
-"GET /clients/ HTTP/1.1" 200 796
-"GET /client/3/ HTTP/1.1" 200 761
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2487
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /client/1/ HTTP/1.1" 200 1616
-"GET /clients/ HTTP/1.1" 200 897
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2487
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"GET /static/my_dz_1/css/style.css HTTP/1.1" 200 609
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1213
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1213
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1213
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 894
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 894
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 894
-Watching for file changes with StatReloader
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 894
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 903
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 894
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 894
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 894
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 907
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 907
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 907
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 907
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 907
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 916
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 907
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 916
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_1\views.py changed, reloading.
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 916
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 916
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_1\views.py changed, reloading.
-Watching for file changes with StatReloader
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 918
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 945
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 945
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 945
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_1\views.py changed, reloading.
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 904
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 904
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 904
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 904
-"О себе" страница была посещена.
-"GET /about/ HTTP/1.1" 200 1226
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 904
-Watching for file changes with StatReloader
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_1\urls.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Главная страница была посещена.
-"GET / HTTP/1.1" 200 904
-C:\Users\it\Desktop\seminar_dz\seminar_dz\seminar_dz\urls.py changed, reloading.
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-"GET /client/3/ HTTP/1.1" 200 761
-"GET /static/my_dz_2/css/style.css HTTP/1.1" 304 0
-"GET /clients/ HTTP/1.1" 200 897
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-"GET /client/3/ HTTP/1.1" 200 761
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 10629
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2114
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 10629
-"GET / HTTP/1.1" 200 10629
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\models.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72634
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72360
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72634
-"GET /clients/ HTTP/1.1" 200 389
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 389
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /clients/ HTTP/1.1" 200 389
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Not Found: /clients/2
-"GET /clients/2 HTTP/1.1" 404 2481
-"GET /clients/ HTTP/1.1" 200 389
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/1/ HTTP/1.1" 500 72360
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72634
-Not Found: /client/3/1
-"GET /client/3/1 HTTP/1.1" 404 2484
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2436
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72656
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72382
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 10, in client_detail
-    return render(request, 'my_dz_3/client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'client_orders' not found. 'client_orders' is not a valid view function or pattern name.
-"GET /client/1/ HTTP/1.1" 500 115217
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 10, in client_detail
-    return render(request, 'my_dz_3/client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'client_orders' not found. 'client_orders' is not a valid view function or pattern name.
-"GET /client/1/ HTTP/1.1" 500 115217
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\urls.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2641
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72656
-Not Found: /client/3/2
-"GET /client/3/2 HTTP/1.1" 404 2689
-"GET /client/3 HTTP/1.1" 301 0
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72382
-Internal Server Error: /client/3/orders/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 17, in client_orders
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/orders/ HTTP/1.1" 500 72507
-"GET /client/3/orders HTTP/1.1" 301 0
-Internal Server Error: /client/3/orders/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 17, in client_orders
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/orders/ HTTP/1.1" 500 72507
-Not Found: /client/3/1
-"GET /client/3/1 HTTP/1.1" 404 2689
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\urls.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Not Found: /client/3/1
-"GET /client/3/1 HTTP/1.1" 404 2842
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/2/ HTTP/1.1" 200 805
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/orders/ HTTP/1.1" 200 950
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/2/ HTTP/1.1" 200 805
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/2/orders/ HTTP/1.1" 200 854
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Not Found: /client/1/2
-"GET /client/1/2 HTTP/1.1" 404 2842
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Not Found: /client/1/1
-"GET /client/1/1 HTTP/1.1" 404 2842
-Not Found: /client/1/1/
-"GET /client/1/1/ HTTP/1.1" 404 2845
-"GET /client/1/orders HTTP/1.1" 301 0
-"GET /client/1/orders/ HTTP/1.1" 200 950
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/2/orders/ HTTP/1.1" 200 854
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /clients/ HTTP/1.1" 200 602
-"GET /clients/ HTTP/1.1" 200 602
-"GET /clients/ HTTP/1.1" 200 602
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 602
-C:\Users\it\Desktop\seminar_dz\seminar_dz\seminar_dz\settings.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/orders/ HTTP/1.1" 200 950
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /client/1/orders/ HTTP/1.1" 200 950
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 404 1822
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 595
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 609
-"GET /client/1/ HTTP/1.1" 200 906
-"GET /client/1/orders/ HTTP/1.1" 200 950
-Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2794
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72722
-Internal Server Error: /client/3/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 8, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/3/ HTTP/1.1" 500 72448
-Internal Server Error: /clients/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 15, in client_list
-    return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /clients/ HTTP/1.1" 500 126385
-Internal Server Error: /clients/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
-    compiled_parent = self.get_parent(context)
-                      ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
-    return self.find_template(parent, context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
-    template, origin = context.template.engine.find_template(
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
-    raise TemplateDoesNotExist(name, tried=tried)
-django.template.exceptions.TemplateDoesNotExist: base.html
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 15, in client_list
-    return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
-    reraise(exc, self.backend)
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
-    raise new from exc
-django.template.exceptions.TemplateDoesNotExist: base.html
-"GET /clients/ HTTP/1.1" 500 126111
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 627
-"GET /client/1/ HTTP/1.1" 200 844
-Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/1/ HTTP/1.1" 200 844
-Not Found: /clientы
-"GET /client%D1%8B HTTP/1.1" 404 2840
-"GET /clients/ HTTP/1.1" 200 627
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/2/ HTTP/1.1" 200 753
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/1/orders/ HTTP/1.1" 200 907
-Watching for file changes with StatReloader
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'endblock'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 10, in client_detail
-    return render(request, 'my_dz_3/client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 32: 'endblock'. Did you forget to register or load this tag?
-"GET /client/1/ HTTP/1.1" 500 140301
-"GET /clients/ HTTP/1.1" 200 627
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
-    compile_func = self.tags[command]
-                   ~~~~~~~~~^^^^^^^^^
-KeyError: 'endblock'
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 10, in client_detail
-    return render(request, 'my_dz_3/client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
-    return engine.get_template(template_name)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
-    return Template(self.engine.get_template(template_name), self)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
-    template, origin = self.find_template(template_name)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
-    template = loader.get_template(name, skip=skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
-    template = super().get_template(template_name, skip)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
-    return Template(
-           ^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
-    self.nodelist = self.compile_nodelist()
-                    ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
-    return parser.parse()
-           ^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
-    self.invalid_block_tag(token, command, parse_until)
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
-    raise self.error(
-django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 32: 'endblock'. Did you forget to register or load this tag?
-"GET /client/1/ HTTP/1.1" 500 140164
-"GET /client/1/ HTTP/1.1" 200 844
-Watching for file changes with StatReloader
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 10, in client_detail
-    return render(request, 'my_dz_3/client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
-    nodelist.append(node.render_annotated(context))
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'client_order_products' not found. 'client_order_products' is not a valid view function or pattern name.
-"GET /client/1/ HTTP/1.1" 500 161851
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 10, in client_detail
-    return render(request, 'my_dz_3/client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
-    nodelist.append(node.render_annotated(context))
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'client_order_products' not found. 'client_order_products' is not a valid view function or pattern name.
-"GET /client/1/ HTTP/1.1" 500 161714
-"GET /clients/ HTTP/1.1" 200 627
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 10, in client_detail
-    return render(request, 'my_dz_3/client_detail.html', {'client': client, 'orders': orders})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
-    nodelist.append(node.render_annotated(context))
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'client_order_products' not found. 'client_order_products' is not a valid view function or pattern name.
-"GET /client/1/ HTTP/1.1" 500 161873
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\urls.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\urls.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/1/orders/ HTTP/1.1" 200 907
-Not Found: /client/12orders/
-"GET /client/12orders/ HTTP/1.1" 404 2860
-"GET /client/2/orders/ HTTP/1.1" 200 835
-"GET /clients/ HTTP/1.1" 200 627
-"GET /client/2/ HTTP/1.1" 200 753
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/2/ HTTP/1.1" 200 753
-Not Found: /client/2/orler
-"GET /client/2/orler HTTP/1.1" 404 2854
-Not Found: /client/2/orlers
-"GET /client/2/orlers HTTP/1.1" 404 2857
-"GET /client/2/orders HTTP/1.1" 301 0
-"GET /client/2/orders/ HTTP/1.1" 200 835
-"GET /clients/ HTTP/1.1" 200 627
-"GET /client/1/ HTTP/1.1" 200 844
-Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/2/ HTTP/1.1" 200 753
-"GET /clients/ HTTP/1.1" 200 767
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/2/orders/ HTTP/1.1" 200 835
-"GET /clients/ HTTP/1.1" 200 645
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/2/ HTTP/1.1" 200 753
-Watching for file changes with StatReloader
-"GET /client/2/ HTTP/1.1" 200 753
-"GET /clients/ HTTP/1.1" 200 722
-Watching for file changes with StatReloader
-"GET /clients/ HTTP/1.1" 200 722
-"GET /clients/ HTTP/1.1" 200 722
-Not Found: /clients/1
-"GET /clients/1 HTTP/1.1" 404 2839
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /clients/ HTTP/1.1" 200 722
-"GET /clients/ HTTP/1.1" 200 630
-"GET /client/1/ HTTP/1.1" 200 844
-"GET /client/1/ HTTP/1.1" 200 844
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 630
-"GET /client/1/ HTTP/1.1" 200 1018
-"GET /client/2/ HTTP/1.1" 200 753
-"GET /client/2/orders/ HTTP/1.1" 200 835
-Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 1239
-"GET /client/1/orders/ HTTP/1.1" 200 907
-"GET /client/1/orders/ HTTP/1.1" 200 907
-"GET /client/1/orders/ HTTP/1.1" 200 907
-"GET /client/2/ HTTP/1.1" 200 812
-"GET /client/2/orders/ HTTP/1.1" 200 835
-"GET /client/2/ HTTP/1.1" 200 812
-"GET / HTTP/1.1" 200 630
-"GET /client/2/ HTTP/1.1" 200 812
-"GET /client/2/orders/ HTTP/1.1" 200 835
-"GET /client/1/ HTTP/1.1" 200 1239
-"GET /client/1/orders/ HTTP/1.1" 200 907
-"GET /client/1/orders/ HTTP/1.1" 200 907
-"GET /client/1/orders/ HTTP/1.1" 200 907
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 924
-"GET /client/1/orders/ HTTP/1.1" 200 919
-"GET /client/1/orders/ HTTP/1.1" 200 921
-"GET /client/1/orders/ HTTP/1.1" 200 921
-"GET /client/2/ HTTP/1.1" 200 812
-"GET /client/2/orders/ HTTP/1.1" 200 847
-"GET /client/2/ HTTP/1.1" 200 891
-"GET /static/my_dz_3/images/your_image.jpg HTTP/1.1" 404 1846
-"GET / HTTP/1.1" 200 709
-"GET /static/my_dz_3/images/your_image.jpg HTTP/1.1" 404 1846
-"GET / HTTP/1.1" 200 701
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-"GET / HTTP/1.1" 200 732
-"GET /static/my_dz_3/images/your_image.jpg HTTP/1.1" 404 1846
-"GET / HTTP/1.1" 200 724
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 724
-"GET / HTTP/1.1" 200 724
-"GET / HTTP/1.1" 200 724
-"GET / HTTP/1.1" 200 724
-"GET / HTTP/1.1" 200 735
-"GET /static/my_dz_3/images/your_image.jpg HTTP/1.1" 404 1846
-"GET / HTTP/1.1" 200 727
-"GET /client/1/ HTTP/1.1" 200 1336
-"GET /client/1/ HTTP/1.1" 200 1564
-"GET / HTTP/1.1" 200 955
-"GET /client/1/ HTTP/1.1" 200 1690
-"GET /client/1/ HTTP/1.1" 200 1690
-"GET /client/1/orders/ HTTP/1.1" 200 1372
-"GET /client/1/orders/ HTTP/1.1" 200 974
-"GET /client/1/ HTTP/1.1" 200 1292
-"GET /client/1/ HTTP/1.1" 200 1690
-Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 1690
-"GET / HTTP/1.1" 200 1164
-"GET /client/3/ HTTP/1.1" 200 1409
-"GET /client/3/orders/ HTTP/1.1" 200 1232
-"GET /client/1/ HTTP/1.1" 200 1690
-"GET /client/1/orders/ HTTP/1.1" 200 1372
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1687
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 1512
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1516
-"GET /client/1/orders/ HTTP/1.1" 200 1492
-"GET /client/1/orders/ HTTP/1.1" 200 1492
-"GET /client/1/orders/ HTTP/1.1" 200 1492
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 1489
-"GET /client/1/orders/ HTTP/1.1" 200 1510
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 1510
-"GET /client/1/orders/ HTTP/1.1" 200 1510
-"GET /client/1/orders/ HTTP/1.1" 200 1510
-"GET /client/1/orders/ HTTP/1.1" 200 1510
-"GET /client/1/orders/ HTTP/1.1" 200 1575
-"GET /client/1/orders/ HTTP/1.1" 200 1560
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 1560
-"GET /client/1/orders/ HTTP/1.1" 200 1560
-"GET /client/1/orders/ HTTP/1.1" 200 1560
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 1560
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-"GET /client/2/ HTTP/1.1" 200 1405
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/3/ HTTP/1.1" 200 1405
-"GET /client/3/orders/ HTTP/1.1" 200 1226
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-Watching for file changes with StatReloader
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-"GET /client/2/ HTTP/1.1" 200 1405
-"GET /client/2/orders/ HTTP/1.1" 200 1349
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-"GET /client/1/orders/ HTTP/1.1" 200 1479
-"GET /client/1/orders/ HTTP/1.1" 200 1473
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1473
-"GET /client/1/orders/ HTTP/1.1" 200 1473
-"GET /client/1/orders/ HTTP/1.1" 200 1484
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET / HTTP/1.1" 200 1166
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1533
-"GET /client/1/orders/ HTTP/1.1" 200 1533
-"GET /client/1/orders/ HTTP/1.1" 200 1517
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET /client/3/ HTTP/1.1" 200 1405
-Watching for file changes with StatReloader
-"GET /client/3/ HTTP/1.1" 200 1405
-Not Found: /clients/
-"GET /clients/ HTTP/1.1" 404 2675
-Not Found: /clients/
-"GET /clients/ HTTP/1.1" 404 2675
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET / HTTP/1.1" 200 1166
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1234
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1223
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1227
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1129
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1125
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1129
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1129
-"GET /client/1/ HTTP/1.1" 200 1971
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/2/ HTTP/1.1" 200 1405
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/2/orders/ HTTP/1.1" 200 1426
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/2/orders/ HTTP/1.1" 200 1426
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1225
-"GET /client/2/ HTTP/1.1" 200 1433
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/2/ HTTP/1.1" 200 1433
-"GET /client/2/ HTTP/1.1" 200 1433
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1317
-"GET /client/2/orders/ HTTP/1.1" 200 1426
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET / HTTP/1.1" 200 1166
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1321
-"GET /client/1/ HTTP/1.1" 200 1999
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 1999
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1418
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 1999
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2089
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2089
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1488
-"GET /client/1/ HTTP/1.1" 200 2089
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2154
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1488
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1488
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1484
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1488
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2175
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET / HTTP/1.1" 200 1195
-"GET / HTTP/1.1" 200 1195
-"GET / HTTP/1.1" 200 1195
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET / HTTP/1.1" 200 1195
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1556
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1588
-"GET /client/1/orders/ HTTP/1.1" 200 1588
-"GET /client/1/orders/ HTTP/1.1" 200 1588
-"GET /client/1/orders/ HTTP/1.1" 200 1588
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 1195
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1485
-"GET /static/my_dz_3/image/583.jpg HTTP/1.1" 200 2057688
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-Watching for file changes with StatReloader
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1711
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1546
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1547
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1550
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1547
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1550
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1550
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1553
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-"GET / HTTP/1.1" 200 1216
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1553
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 200 1553
-Not Found: /about/
-"GET /about/ HTTP/1.1" 404 2669
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 2174
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1195
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-Not Found: /favicon.ico
-"GET /favicon.ico HTTP/1.1" 404 2684
-"GET /client/1/ HTTP/1.1" 200 2174
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\models.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\it\Desktop\seminar_dz\seminar_dz\seminar_dz\settings.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1195
-"GET /add_product HTTP/1.1" 301 0
-"GET /add_product/ HTTP/1.1" 200 1338
-Internal Server Error: /add_product/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
-    return self.cursor.execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
-    return super().execute(query, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-sqlite3.OperationalError: table my_dz_3_product has no column named photo
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 75, in add_product
-    form.save()
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\forms\models.py", line 552, in save
-    self.instance.save()
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
-    self.save_base(
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
-    updated = self._save_table(
-              ^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
-    results = self._do_insert(
-              ^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
-    return manager._insert(
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
-    return super().execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return self._execute_with_wrappers(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
-    with self.db.wrap_database_errors:
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
-    return self.cursor.execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
-    return super().execute(query, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-django.db.utils.OperationalError: table my_dz_3_product has no column named photo
-"POST /add_product/ HTTP/1.1" 500 152282
-Watching for file changes with StatReloader
-Internal Server Error: /add_product/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 76, in add_product
-    return redirect('product_list')  # Redirect to a list of products or another page
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
-    return redirect_class(resolve_url(to, *args, **kwargs))
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
-    return reverse(to, args=args, kwargs=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'product_list' not found. 'product_list' is not a valid view function or pattern name.
-"POST /add_product/ HTTP/1.1" 500 84090
-"GET /client/1/ HTTP/1.1" 200 2174
-"GET /client/1/orders/ HTTP/1.1" 200 1707
-Not Found: /clients
-"GET /clients HTTP/1.1" 404 2851
-"GET /add_product/ HTTP/1.1" 200 1338
-Internal Server Error: /add_product/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 76, in add_product
-    return redirect('product_list')  # Redirect to a list of products or another page
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
-    return redirect_class(resolve_url(to, *args, **kwargs))
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
-    return reverse(to, args=args, kwargs=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'product_list' not found. 'product_list' is not a valid view function or pattern name.
-"POST /add_product/ HTTP/1.1" 500 84075
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\urls.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-"POST /add_product/ HTTP/1.1" 302 0
-Internal Server Error: /products/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 83, in product_list
-    return render(request, 'myapp/product_list.html', {'products': products})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
-    template = get_template(template_name, using=using)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
-    raise TemplateDoesNotExist(template_name, chain=chain)
-django.template.exceptions.TemplateDoesNotExist: myapp/product_list.html
-"GET /products/ HTTP/1.1" 500 79631
-C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py changed, reloading.
-Watching for file changes with StatReloader
-Watching for file changes with StatReloader
-"GET /products/ HTTP/1.1" 200 1014
-"GET /add_product/ HTTP/1.1" 200 1338
-"POST /add_product/ HTTP/1.1" 302 0
-"GET /products/ HTTP/1.1" 200 1110
-Watching for file changes with StatReloader
-"GET /products/ HTTP/1.1" 200 871
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /products/ HTTP/1.1" 200 1341
-"GET /products/ HTTP/1.1" 200 1359
-"GET /products/ HTTP/1.1" 200 1359
-"GET /add_product/ HTTP/1.1" 200 1978
-"POST /add_product/ HTTP/1.1" 302 0
-"GET /products/ HTTP/1.1" 200 1405
-"GET /add_product/ HTTP/1.1" 200 1978
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1195
-"POST /add_product/ HTTP/1.1" 302 0
-"GET /products/ HTTP/1.1" 200 4162
-"GET /media/product_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_38_AIQM7qU.png HTTP/1.1" 200 345707
-"GET /media/product_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_12.png HTTP/1.1" 200 1327054
-"GET /media/product_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_12_9wnpkbo.png HTTP/1.1" 200 1327054
-"GET /media/product_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_12_88gSDYX.png HTTP/1.1" 200 1327054
-"GET /media/product_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_12_C3KxzxG.png HTTP/1.1" 200 1327054
-"GET /media/product_photos/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_12_8r8nIgA.png HTTP/1.1" 200 1327054
-Watching for file changes with StatReloader
-Internal Server Error: /
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
-    return self.cursor.execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
-    return super().execute(query, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-sqlite3.OperationalError: no such table: my_dz_3_client
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 16, in client_list
-    return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 198, in render
-    len_values = len(values)
-                 ^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
-    self._fetch_all()
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
-    self._result_cache = list(self._iterable_class(self))
-                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
-    results = compiler.execute_sql(
-              ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
-    return super().execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return self._execute_with_wrappers(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
-    with self.db.wrap_database_errors:
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
-    return self.cursor.execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
-    return super().execute(query, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-django.db.utils.OperationalError: no such table: my_dz_3_client
-"GET / HTTP/1.1" 500 193545
-"GET /add_product/ HTTP/1.1" 200 1978
-Internal Server Error: /add_product/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
-    return self.cursor.execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
-    return super().execute(query, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-sqlite3.OperationalError: no such table: my_dz_3_product
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 75, in add_product
-    form.save()
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\forms\models.py", line 552, in save
-    self.instance.save()
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
-    self.save_base(
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
-    updated = self._save_table(
-              ^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
-    results = self._do_insert(
-              ^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
-    return manager._insert(
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
-    return query.get_compiler(using=using).execute_sql(returning_fields)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
-    cursor.execute(sql, params)
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
-    return super().execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
-    return self._execute_with_wrappers(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
-    return executor(sql, params, many, context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
-    with self.db.wrap_database_errors:
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
-    return self.cursor.execute(sql, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
-    return super().execute(query, params)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-django.db.utils.OperationalError: no such table: my_dz_3_product
-"POST /add_product/ HTTP/1.1" 500 151863
-Watching for file changes with StatReloader
-"POST /add_product/ HTTP/1.1" 302 0
-"GET /products/ HTTP/1.1" 200 1264
-"GET /media/product_photos/acer_9D8d5d9.jpg HTTP/1.1" 200 13264
-"GET /products/ HTTP/1.1" 200 1264
-Not Found: /media/product_photos/acer_9D8d5d9.jpg
-"GET /media/product_photos/acer_9D8d5d9.jpg HTTP/1.1" 404 3473
-"GET /products/ HTTP/1.1" 200 1264
-Not Found: /media/product_photos/acer_9D8d5d9.jpg
-"GET /media/product_photos/acer_9D8d5d9.jpg HTTP/1.1" 404 3473
-"GET /products/ HTTP/1.1" 200 1264
-Not Found: /media/product_photos/acer_9D8d5d9.jpg
-"GET /media/product_photos/acer_9D8d5d9.jpg HTTP/1.1" 404 3473
-"GET /add_product/ HTTP/1.1" 200 1978
-"POST /add_product/ HTTP/1.1" 302 0
-"GET /products/ HTTP/1.1" 200 1587
-"GET /media/product_photos/acer.jpg HTTP/1.1" 200 13264
-Not Found: /media/product_photos/acer_9D8d5d9.jpg
-"GET /media/product_photos/acer_9D8d5d9.jpg HTTP/1.1" 404 3473
-"GET /products/ HTTP/1.1" 200 1587
-"GET /media/product_photos/acer.jpg HTTP/1.1" 304 0
-Not Found: /media/product_photos/acer_9D8d5d9.jpg
-"GET /media/product_photos/acer_9D8d5d9.jpg HTTP/1.1" 404 3473
-"GET /add_product/ HTTP/1.1" 200 1978
-"POST /add_product/ HTTP/1.1" 302 0
-"GET /products/ HTTP/1.1" 200 1944
-"GET /media/product_photos/hand-using-computer-mouse_948265-138605.jpg HTTP/1.1" 200 80421
-Not Found: /media/product_photos/acer_9D8d5d9.jpg
-"GET /media/product_photos/acer_9D8d5d9.jpg HTTP/1.1" 404 3473
-"GET /products/ HTTP/1.1" 200 1936
-"GET /media/product_photos/acer.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/hand-using-computer-mouse_948265-138605.jpg HTTP/1.1" 304 0
-"GET /add_product/ HTTP/1.1" 200 1978
-"POST /add_product/ HTTP/1.1" 302 0
-"GET /products/ HTTP/1.1" 200 2263
-"GET /media/product_photos/acer.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/hand-using-computer-mouse_948265-138605.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/best-laptops.jpg HTTP/1.1" 200 58930
-Internal Server Error: /client/1/
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 9, in client_detail
-    client = Client.objects.get(pk=client_id)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\db\models\query.py", line 649, in get
-    raise self.model.DoesNotExist(
-my_dz_3.models.Client.DoesNotExist: Client matching query does not exist.
-"GET /client/1/ HTTP/1.1" 500 72558
-"GET / HTTP/1.1" 200 936
-Watching for file changes with StatReloader
-"GET / HTTP/1.1" 200 1191
-"GET /static/my_dz_3/css/style.css HTTP/1.1" 304 0
-"GET /client/1/ HTTP/1.1" 200 1547
-"GET /client/1/orders/ HTTP/1.1" 200 1574
-"GET /client/1/orders/ HTTP/1.1" 200 1574
-"GET / HTTP/1.1" 200 1191
-"GET /client/1/ HTTP/1.1" 200 1547
-"GET /add_product/ HTTP/1.1" 200 1978
-"GET /products/ HTTP/1.1" 200 2352
-"GET /media/product_photos/acer.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/hand-using-computer-mouse_948265-138605.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/best-laptops.jpg HTTP/1.1" 304 0
-"GET /add_product/ HTTP/1.1" 200 1978
-"GET /products/ HTTP/1.1" 200 2264
-"GET /products/ HTTP/1.1" 200 2264
-"GET /products/ HTTP/1.1" 200 2348
-"GET /add_product/ HTTP/1.1" 200 1978
-"GET /add_product/ HTTP/1.1" 200 1978
-"GET / HTTP/1.1" 200 1191
-"GET / HTTP/1.1" 200 1276
-"GET /client/1/ HTTP/1.1" 200 1547
-"GET /add_product/ HTTP/1.1" 200 1978
-"GET / HTTP/1.1" 200 1286
-"GET / HTTP/1.1" 200 1286
-"GET /client/1/ HTTP/1.1" 200 1547
-"GET /client/1/orders/ HTTP/1.1" 200 1574
-"GET /client/1/ HTTP/1.1" 200 1547
-"GET /client/1/ HTTP/1.1" 200 1646
-"GET /client/1/ HTTP/1.1" 200 1623
-"GET / HTTP/1.1" 200 1286
-"GET /add_product/ HTTP/1.1" 200 1978
-"GET /add_product/ HTTP/1.1" 200 2048
-"GET / HTTP/1.1" 200 1286
-"GET /add_product/ HTTP/1.1" 200 2048
-"GET / HTTP/1.1" 200 1286
-"GET /client/1/ HTTP/1.1" 200 1623
-"GET / HTTP/1.1" 200 1286
-"GET /client/3/ HTTP/1.1" 200 1464
-"GET /client/3/orders/ HTTP/1.1" 200 1465
-"GET /client/3/orders/ HTTP/1.1" 200 1536
-"GET / HTTP/1.1" 200 1286
-"GET /client/2/ HTTP/1.1" 200 1466
-"GET / HTTP/1.1" 200 1286
-"GET /client/3/ HTTP/1.1" 200 1464
-"GET / HTTP/1.1" 200 1286
-"GET / HTTP/1.1" 200 1286
-"GET /products HTTP/1.1" 301 0
-"GET /products/ HTTP/1.1" 200 2348
-"GET /media/product_photos/hand-using-computer-mouse_948265-138605.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/acer.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/best-laptops.jpg HTTP/1.1" 304 0
-"GET /products/ HTTP/1.1" 200 2348
-"GET /add_product/ HTTP/1.1" 200 2048
-Internal Server Error: /
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 16, in client_list
-    return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'product' not found. 'product' is not a valid view function or pattern name.
-"GET / HTTP/1.1" 500 146842
-Internal Server Error: /
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 16, in client_list
-    return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'product' not found. 'product' is not a valid view function or pattern name.
-"GET / HTTP/1.1" 500 147054
-Internal Server Error: /
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 16, in client_list
-    return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'products' not found. 'products' is not a valid view function or pattern name.
-"GET / HTTP/1.1" 500 147080
-"GET / HTTP/1.1" 200 1289
-Internal Server Error: /
-Traceback (most recent call last):
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\views.py", line 16, in client_list
-    return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
-    return self.template.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 171, in render
-    return self._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
-    return compiled_parent._render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
-    return self.nodelist.render(context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
-    result = block.nodelist.render(context)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
-    return self.render(context)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\it\Desktop\seminar_dz\.venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'products' not found. 'products' is not a valid view function or pattern name.
-"GET / HTTP/1.1" 500 147067
-"GET / HTTP/1.1" 200 1353
-"GET / HTTP/1.1" 200 1354
-"GET / HTTP/1.1" 200 1363
-"GET / HTTP/1.1" 200 1377
-"GET / HTTP/1.1" 200 1372
-"GET / HTTP/1.1" 200 1376
-"GET / HTTP/1.1" 200 1376
-"GET / HTTP/1.1" 200 1376
-"GET /products/ HTTP/1.1" 200 2348
-"GET /media/product_photos/acer.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/hand-using-computer-mouse_948265-138605.jpg HTTP/1.1" 304 0
-"GET /media/product_photos/best-laptops.jpg HTTP/1.1" 304 0
-"GET /add_product/ HTTP/1.1" 200 2048
-"GET /products/ HTTP/1.1" 200 2427
-"GET / HTTP/1.1" 200 1376
-"GET /products/ HTTP/1.1" 200 2427
-"GET / HTTP/1.1" 200 1376
-"GET /client/1/ HTTP/1.1" 200 1623
+"GET / HTTP/1.1" 200 939
+"GET /products/ HTTP/1.1" 200 2028
+"GET /add_product/ HTTP/1.1" 200 1649
+"GET /admin/ HTTP/1.1" 200 9173
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 12680
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/order/ HTTP/1.1" 200 11984
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 12773
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 23430
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 12773
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/1/change/ HTTP/1.1" 200 23327
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 12514
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 12680
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/2/change/ HTTP/1.1" 200 11810
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 12680
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\it\Desktop\seminar_dz\seminar_dz\my_dz_3\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 9173
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 12539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 12780
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/?price=100.20 HTTP/1.1" 200 12059
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 12539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/product/ HTTP/1.1" 200 12780
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/order/ HTTP/1.1" 200 12062
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 12539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/2/change/ HTTP/1.1" 200 11016
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/order/ HTTP/1.1" 200 12062
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 10210
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/2/change/ HTTP/1.1" 200 13859
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"POST /admin/auth/group/2/change/ HTTP/1.1" 302 0
+"GET /admin/auth/group/2/change/ HTTP/1.1" 200 14105
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 12539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/ HTTP/1.1" 200 9530
+"GET /admin/auth/user/ HTTP/1.1" 200 12773
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 23430
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 10210
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/2/change/ HTTP/1.1" 200 13868
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/order/ HTTP/1.1" 200 12062
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/ HTTP/1.1" 200 12539
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 10210
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/3/change/ HTTP/1.1" 200 13882
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/ HTTP/1.1" 200 12773
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/user/2/change/ HTTP/1.1" 200 23430
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/ HTTP/1.1" 200 10210
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/group/2/change/ HTTP/1.1" 200 13868
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/my_dz_3/client/add/ HTTP/1.1" 200 10704
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/ HTTP/1.1" 200 9530

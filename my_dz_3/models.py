@@ -28,6 +28,7 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.CASCADE, related_name='orders')  # Клиент, сделавший заказ
     products = models.ManyToManyField(Product, related_name='orders')  # Товары, входящие в заказ

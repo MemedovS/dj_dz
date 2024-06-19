@@ -23,6 +23,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)  # Цена товара
     quantity = models.PositiveIntegerField()  # Количество товара
     added_date = models.DateTimeField(auto_now_add=True)  # Дата добавления товара
+    photo = models.ImageField(upload_to='product_photos/', null=True, blank=True)  # Фото товар
 
     def __str__(self):
         return self.name

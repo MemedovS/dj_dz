@@ -1,9 +1,10 @@
 # views.py
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
 from django.utils import timezone
 from datetime import timedelta
 from .models import Client, Order, Product
 from .form import ProductForm
+
 
 def client_detail(request, client_id):
     client = Client.objects.get(pk=client_id)
@@ -14,7 +15,6 @@ def client_detail(request, client_id):
 def client_list(request):
     clients = Client.objects.all()
     return render(request, 'my_dz_3/client_list.html', {'clients': clients})
-
 
 
 def client_orders(request, client_id):
@@ -63,20 +63,16 @@ def client_orders(request, client_id):
     return render(request, 'my_dz_3/client_orders.html', context)
 
 
-
-
-
-
-
 def add_product(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect('product_list')  # Redirect to a list of products or another page
+            return redirect('product_list')  # Перенаправление на список продуктов или другую страницу
     else:
         form = ProductForm()
     return render(request, 'my_dz_3/add_product.html', {'form': form})
+
 
 def product_list(request):
     products = Product.objects.all()
