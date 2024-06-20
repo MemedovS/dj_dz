@@ -77,3 +77,17 @@ def add_product(request):
 def product_list(request):
     products = Product.objects.all()
     return render(request, 'my_dz_3/product_list.html', {'products': products})
+
+
+###
+
+from django.db.models import Sum
+
+
+def total_in_db(request):
+    total = Product.objects.aggregate(Sum('quantity'))
+    context = {
+        'title': 'Общее количество посчитано в базе данных',
+        'total': total,
+    }
+    return render(request, 'my_dz_3/total_count.html', context)

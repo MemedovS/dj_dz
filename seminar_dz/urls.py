@@ -23,6 +23,8 @@ urlpatterns = [
     #path('', include('my_dz_2.urls')),
     #path('', include('my_dz_1.urls')),
     path('', include('my_dz_3.urls')),
+    #path('__debug__/', include("debug_toolbar.urls")),
+    path('dez/', include("my_dz_3.urls")),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
